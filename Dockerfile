@@ -1,5 +1,8 @@
 FROM node:dubnium-alpine
 
+
+RUN npm i -g npm@6.6.0
+
 ARG FILE='linux-x64-64_binding.node'
 # install node-sass
 RUN \
